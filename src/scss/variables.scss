@@ -1,9 +1,13 @@
 $font_family_base: 'Montserrat', sans-serif;
 
 $primary_text: #070c11;
+$secondary_text: #455a64;
+$grey_text: #68879a;
 $color_active: #2af5d6;
 $color_hover: #5fffe6;
+$color_green: #23c5ac;
 $white: #fff;
+$black: #000000;
 $dark_blue: #111052;
 $light_blue_color: #1169ff;
 $color_error: #ff0000;
@@ -15,16 +19,41 @@ $bg_color_error: #fff5f5;
 $bg_color_info: #dbf7ff;
 $bg_color_warning: #fff4d4;
 $color_blue_2: #538fff;
+$color_blue_3: #1e41ff;
+$color_border_sumary: #b8d2ff;
+$color_not_active: #f2f7ff;
+$border_tab: #c8d4ea;
 
 $font_size_small: 9px;
 $font_size_body: 12px;
 $font_size_medium: 14px;
 $font_size_base: 16px;
-$font_size_large: 21px;
-
+$font_size_large: 20px;
+$font_size_x_large: 21px;
 // Media Query: screen width breakpoint
 $screen_sm: 36rem; // 576px
 $screen_md: 48rem; // 768px
 $screen_lg: 62rem; // 992px
 $screen_xl: 75rem; // 1200px
 $screen_xxl: 87.5rem; // 1400px
+
+// z-index management
+$zIndex: (
+  zIndex1: 1,
+  dot: 10,
+  workOrderRight: 20,
+  table: 30,
+  tableHeader: 40,
+  input: 50,
+  calendar: 60,
+  select: 80,
+  header: 100,
+  scheduleTypeDropdown: 110,
+  navigationDrawer: 200,
+  notification: 300,
+  sidebar: 200,
+  accountMenu: 600,
+  tooltip: 800,
+  loadingOverlay: 1000,
+  flashMessage: 5000,
+);

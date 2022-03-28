@@ -1,12 +1,16 @@
 <template>
   <v-app>
-      <router-view />
+    <LoadingIndicator />
+    <router-view />
   </v-app>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-@Component
+import LoadingIndicator from './common/loading.vue';
+@Component({
+  components: { LoadingIndicator },
+})
 export default class App extends Vue {}
 </script>
 <style lang="scss">

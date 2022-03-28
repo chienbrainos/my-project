@@ -4,6 +4,8 @@ import './registerServiceWorker';
 import router from './router';
 import store from './store';
 import vuetify from './plugins/vuetify';
+// mixins
+import './mixins/ultiMixins';
 Vue.config.productionTip = false;
 
 new Vue({

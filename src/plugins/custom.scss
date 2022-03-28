@@ -23,7 +23,6 @@ input:-webkit-autofill:active {
   }
 
   .v-btn__content {
-    color: $white !important;
     letter-spacing: normal;
     line-height: 0;
   }
@@ -79,4 +78,8 @@ input:-webkit-autofill:active {
     right: 16px;
     top: 16px;
   }
+}
+ul {
+  list-style-type: none;
+  padding: 0 !important;
 }
